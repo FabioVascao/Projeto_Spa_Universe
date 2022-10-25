@@ -9,21 +9,23 @@
   <link rel="stylesheet" href="css/home.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<header>
-  <img src="images/logo.svg" alt="Logo representando um buraco negro">
-  <nav>
-    <a href="/">Home</a>
-    <a href="/universe">O Universo</a>
-    <a href="/explorer">Exploração</a>
-  </nav>
-</header>
-<body>
-  <div class="page">
-    <main>
-      <h1>Explore o Universo</h1>
-      <button>Quero Saber Mais</button>
-    </main>
-  </div>
-  <script src=""></script>
-</body>
+<div class="app">
+  <header>
+    <img src="images/logo.svg" alt="Logo representando um buraco negro">
+    <nav>
+      <a href="/" onclick="route()">Home</a>
+      <a href="/universe" onclick="route()">O Universo</a>
+      <a href="/explorer" onclick="route()">Exploração</a>
+    </nav>
+  </header>
+  <body>
+    <div class="page">
+      <main>
+        <h1>Explore o Universo</h1>
+        <button>Quero Saber Mais</button>
+      </main>
+    </div>
+    <script src="js/index.js" type="module"></script>
+  </body>
+</div>
 </html>
