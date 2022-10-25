@@ -6,30 +6,6 @@
 :root {
   font-size: 62.5%;
 }
-header {
-  height: 12.2rem;
-  display: flex;
-  gap: 3.2rem;
-  align-items: center;
-  margin-bottom: 6.3rem;
-}
-header img {
-  Width: 4.9rem;
-  Height: 4.2rem;
-  margin: 4rem 7.2rem;
-}
-nav a {
-  font-size: 1.6rem;
-  text-align: center;
-  padding: 3.2rem;
-  color: #ffffff;
-  text-decoration: none;
-  transition-duration: 200ms;
-}
-nav a:hover {
-  font-size: 2rem;
-  font-weight: 700;
-}
 body {
   height: 100vh;
   font-size: 1.6rem;
@@ -39,8 +15,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.app {
+  margin-left: -40rem;
+}
 .page {
-  margin-left: 10rem;
+  text-align: left;
 }
 h1 {
   color: #E1E1E6;

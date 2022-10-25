@@ -11,7 +11,7 @@ header {
   display: flex;
   gap: 3.2rem;
   align-items: center;
-  margin-bottom: 17rem;
+  margin-bottom: 12rem;
 }
 header img {
   Width: 4.9rem;
@@ -65,5 +65,12 @@ button {
 }
 button:hover {
   background: #ffffff;
+  color: #02799D;
+}
+button a {
+  color: #ffffff;
+  text-decoration: none;
+}
+button:hover a {
   color: #02799D;
 }
