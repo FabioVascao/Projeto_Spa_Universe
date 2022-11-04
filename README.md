@@ -1,4 +1,4 @@
-# Desafio Recriando Layout
+# Desafio Spa Universe
 
 Desafio do Stage06 que faz parte do Programa Explorer da Rocketseat<br/> 
 
